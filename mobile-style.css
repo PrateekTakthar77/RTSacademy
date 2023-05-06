@@ -1,0 +1,91 @@
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-2 .cover {
+        background-position: -25vmin -10vmin;
+    }
+
+    .numbers .rectangle {
+        width: 9rem;
+        height: 8rem;
+    }
+
+    .numbers .rectangle h1 {
+        font-size: 2rem;
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-3 .row h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .section-3 .row .col-md-6 {
+        text-align: center !important;
+    }
+
+    header .container .col-md-7 p {
+        padding: 1vmin 0vmin;
+    }
+
+    header .row .col-md-5 img {
+        position: relative;
+        top: -90px;
+    }
+
+    .section-4 .carousel-item {
+        padding-left: 0.6rem;
+    }
+
+    .section-4 .team {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 24rem;
+    }
+
+    .section-4 .carousel-inner {
+        width: 24rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    header .row .col-md-5 img {
+        top: -125px;
+        margin-bottom: -70px;
+    }
+
+    .footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+
+    .header .row .col-md-5 img{
+        bottom: 125px;
+        margin-bottom: -70px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .section-4 .card{
+        width: 18rem;
+    }
+    .section-3 .desktop h3{
+        font-size: 7vmin;
+    }
+    .section-3 .desktop p{
+        font-size: 4vmin;
+    }
+    .section-4.carousel-inner{
+        margin-left: -14vmin;
+    }
+} 
